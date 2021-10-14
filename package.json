@@ -6,7 +6,7 @@
   "homepage": "https://github.com/Tovt-Kristian/goit-js-hw-11-color-switch#readme",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-10-food-service/",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-11-color-switch/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
