@@ -5,4 +5,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"QvaY":[function(require,module,exports) {
 "use strict";var t=r(require("./colors")),e=r(require("./refs"));function r(t){return t&&t.__esModule?t:{default:t}}var n=e.default.body,a=e.default.startBtn,l=e.default.stopBtn;a.addEventListener("click",d),l.addEventListener("click",o);var u=null;function d(e){e.target.disabled=!0,u=setInterval(function(){n.style.backgroundColor=t.default[i(0,t.default.length-1)]},1e3)}function o(){clearInterval(u),a.disabled=!1}var i=function(t,e){return Math.floor(Math.random()*(e-t+1)+t)};
 },{"./colors":"oLA8","./refs":"VyiV"}]},{},["QvaY"], null)
-//# sourceMappingURL=/goit-js-hw-10-food-service/js.7f6b1e69.js.map
+//# sourceMappingURL=/goit-js-hw-11-color-switch/js.7f6b1e69.js.map
